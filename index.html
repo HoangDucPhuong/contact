@@ -3,35 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us</title>
+    <title>Contact me</title>
   </head>
   <body>
-    <h2>Contact Us</h2>
-    <p>Use the form below to contact us</p>
-    <!--
-      method must be "post" because we have a long message field and a file upload field
-      enctype must be set because we have a file upload field
-    -->
-    <form method="post" action="exercise1.html" enctype="multipart/form-data">
-      <div class="form-row">
-        <div class="form-label">
-          <!--
-            to link a label to an input field,
-            assign the same value to the label's "for" attribute and the input's "id" attribute
-          -->
-          <label for="purpose">Purpose of contact</label>
-        </div>
-        <div class="form-field">
-          <!--
-            "name" is used as variable or array index at the server side
-            so, follow the naming convention of variable
-          -->
-          <select id="purpose" name="purpose">
-            <option value="business">Business</option>
-            <option value="personal">Personal</option>
-          </select>
-        </div>
-      </div>
+    <nav>
+    <a href="https://hoangducphuong.github.io/HoangDucPhuong/">My CV</a>
+    <a href="https://hoangducphuong.github.io/contact/">Contact</a>
+    <a href="https://hoangducphuong.github.io/Blogs/">Blogs</a>
+</nav>
+    <h1>My information to contact</h1>
+    <h2>phone: 0823468791</h2>
+    <h2>
+      <nav>
+        <a href="https://www.google.com/intl/vi/gmail/about/">Email: asdf@gmail.com</a>
+      </nav>
+    </h2>
+    <p>Use the form below to contact me</p>
+    <form method="post" action="index.html" enctype="multipart/form-data">
+      <div class="form-row"></div>
 
       <div class="form-row">
         <div class="form-label">
